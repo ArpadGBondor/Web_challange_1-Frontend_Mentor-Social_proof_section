@@ -1,0 +1,148 @@
+/* Mobile view primary */
+body{
+  background-image: url(../images/bg-pattern-bottom-mobile.svg), url(../images/bg-pattern-top-mobile.svg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: contain, contain;
+
+  color: var(--very-dark-magenta);
+
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  letter-spacing: -1px;
+
+  min-height: 100vh;
+
+  text-align: center;
+}
+
+.page-content{
+  padding: 10% 5%;
+}
+
+.section{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Header */
+.title-font{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+
+/* Review Stars */
+.review-star-row{
+  background-color: var(--light-grayish-magenta);
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+  padding: 0.5rem
+}
+
+.review-star-image{
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+ .review-star-font{
+   font-weight: 700;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+ }
+
+/* Review Comments */
+
+.review-comment-box{
+  background-color: var(--very-dark-magenta);
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-size: 13.5px;
+  letter-spacing: normal;
+  margin: 1rem auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.review-comment-profile-image{
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: auto 1.5rem auto 0;
+}
+
+.review-comment-name-font{
+  font-weight: 700;
+  margin: 0.5rem 0 0 0;
+}
+
+.review-comment-verified-font{
+  color: var(--soft-pink);
+  margin: 0 0 0.5rem 0;
+}
+
+.review-comment-font{
+  margin: 0.5rem 0 0 0;
+  line-height: 2;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* Desktop view secondary */
+@media screen and (min-width: 768px) {
+  body{
+    background-image: url(../images/bg-pattern-bottom-desktop.svg), url(../images/bg-pattern-top-desktop.svg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+
+    text-align: left;
+  }
+
+  .page-content{
+    padding: 5% 10%;
+  }
+
+  .header{
+    padding-right: 20%;
+  }
+
+  .title-font{
+    font-size: 48px;
+  }
+
+
+  .review-stars-1{
+    margin-left: 0rem;
+    margin-right: 6rem;
+  }
+  .review-stars-2{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .review-stars-3{
+    margin-left: 6rem;
+    margin-right: 0rem;
+  }
+
+  .review-comment-1{
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+  }
+  .review-comment-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .review-comment-3{
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+  }
+}
