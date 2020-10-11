@@ -1,3 +1,7 @@
+# [My Solution](https://arpadgbondor.github.io/Web_challenge_1-Frontend_Mentor-Social_proof_section/)
+
+------------------------------
+
 # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
