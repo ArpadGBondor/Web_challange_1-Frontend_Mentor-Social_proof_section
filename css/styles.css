@@ -82,6 +82,7 @@ body{
 }
 
 .review-comment-font{
+  font-weight: 500;
   margin: 0.5rem 0 0 0;
   line-height: 2;
 }
