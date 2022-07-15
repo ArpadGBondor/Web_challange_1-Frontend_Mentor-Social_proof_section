@@ -23,8 +23,8 @@ Users should be able to:
 
 ## Links
 
--   Solution URL: [Add solution URL here](https://github.com/ArpadGBondor/Web_challenge_1-Frontend_Mentor-Social_proof_section)
--   Live Site URL: [Add live site URL here](https://arpadgbondor.github.io/Web_challenge_1-Frontend_Mentor-Social_proof_section/)
+-   Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/mobile-first-html5-css3-bootstrap4-CCEoR_WsJ)
+-   Live Site URL: [Deployed on Github Pages](https://arpadgbondor.github.io/Web_challenge_1-Frontend_Mentor-Social_proof_section/)
 
 ## Built with
 
